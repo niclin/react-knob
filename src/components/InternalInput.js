@@ -1,10 +1,9 @@
 import React from "react";
 
 const InternalInput = ({ min, max, value, step, onChange }) => {
-
   const onValChange = (event) => {
     onChange(Number(event.target.value));
-  }
+  };
 
   return (
     <input
